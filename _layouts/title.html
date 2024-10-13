@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% include site-header-title.html %}
+
+<main class="main  container">
+
+  <article class="article  article--page  content  typeset">
+
+    {{ content }}
+
+  </article>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+
+</main>
+
+{% include site-footer.html %}

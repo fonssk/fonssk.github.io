@@ -1,0 +1,12 @@
+<div class="inverted-section">
+  <div class="inverted-section__content">
+    {% assign paragraphs = include.content | split: "<p>" %}
+    {% for p in paragraphs %}
+      {% if forloop.first %}
+        {{ p | markdownify }}
+      {% else %}
+        <p>{{ p | markdownify }}</p>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

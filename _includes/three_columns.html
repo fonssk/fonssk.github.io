@@ -1,0 +1,14 @@
+<div class="columns columns--three">
+  <div class="column">
+    {% capture column1_content %}{{ include.column1 }}{% endcapture %}
+    {{ column1_content | markdownify }}
+  </div>
+  <div class="column">
+    {% capture column2_content %}{{ include.column2 }}{% endcapture %}
+    {{ column2_content | markdownify }}
+  </div>
+  <div class="column">
+    {% capture column3_content %}{{ include.column3 }}{% endcapture %}
+    {{ column3_content | markdownify }}
+  </div>
+</div>

@@ -232,13 +232,16 @@ ul ul, ol ol, ul ol, ol ul {
 
   .content {
     width: 100%;
-    max-width: calc($max-content-width * 1.2);
+    max-width: calc($max-content-width * 1.15);
+    margin: 0 auto;
   }
 
   .columns.columns--three {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 115%;
+    margin: 0 auto;
+    transform: translateX(-6.5%); // centers the wider content
   }
 
   .column {

@@ -2,29 +2,22 @@
 // ---------------------------------------
 
 // Setting root sizes and base styles.
-@use "sass:math";
-
 html {
   @include rootsize;
 
-  & {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-  }
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 // Site-wide base styles.
 body {
   @include fontsize(zeta, all);
 
-  & {
-    font-family: unquote(map-get($bodytype, font-family));
-    font-style: normal;
-    font-weight: map-get($bodytype, regular);
-    line-height: 2rem;
-  }
+  font-family: unquote(map-get($bodytype, font-family));
+  font-style: normal;
+  font-weight: map-get($bodytype, regular);
+  line-height: 2rem;
 }
-
 
 // Links.
 a {
@@ -60,9 +53,8 @@ a {
   // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
   p {
     @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
-    & {
-      font-feature-settings: 'liga', 'onum', 'kern';
-    }
+
+    font-feature-settings: 'kern', 'onum', 'liga';
   }
 
   // Headings. OpenType ligatures, discretionary ligatures and lining figures enabled if available.
@@ -221,21 +213,17 @@ a {
   table {
     @include sassline(eta, $headingtype, 2, 0, all);
 
-    & {
-      font-family: unquote(map-get($headingtype, font-family));
-      font-feature-settings: 'liga', 'lnum', 'tnum', 'kern';
-      font-style: normal;
-      font-weight: map-get($headingtype, regular);
-      width: 100%;
-    }
+    font-family: unquote(map-get($headingtype, font-family));
+    font-feature-settings: 'liga', 'lnum', 'tnum', 'kern';
+    font-style: normal;
+    font-weight: map-get($headingtype, regular);
+    width: 100%;
 
     thead {
 
       th {
         @include sassline(zeta, $headingtype, 2, 0, all);
-        & {
-          padding-bottom: 1px;
-        }
+        padding-bottom: 1px;
       }
     }
   }
@@ -254,11 +242,9 @@ a {
   small, .caption {
     @include fontsize(theta, all);
 
-    & {
-      font-family: unquote(map-get($headingtype, font-family));
-      font-style: normal;
-      font-weight: map-get($headingtype, regular);
-    }
+    font-family: unquote(map-get($headingtype, font-family));
+    font-style: normal;
+    font-weight: map-get($headingtype, regular);
   }
 
   small {
@@ -268,9 +254,7 @@ a {
   .caption {
     @include baseline(theta, $headingtype, 2, 2, all);
 
-    & {
-      color: $captionColour;
-    }
+    color: $captionColour;
   }
 
   // Nice spacing for captions.
@@ -294,8 +278,8 @@ a {
       $get-scale: map-get($modular-scale, scale-0);
       $get-size: map-get($get-scale, zeta);
       $rootsize: nth($sizes, 1);
-      $baseline-shift: #{math.div($get-size * 0.5 * (math.div(2 * $rootsize, $get-size) - map-get($bodytype, cap-height)), $rootsize) + 0.00001};
-      $baseline-push: #{3 - (math.div($get-size * (math.div(2 * $rootsize, $get-size) - map-get($bodytype, cap-height)), $rootsize) + 0.00001)};
+      $baseline-shift: #{($get-size / 2 * ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))) / $rootsize + 0.00001};
+      $baseline-push: #{3 - (($get-size * ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))) / $rootsize + 0.00001)};
 
       margin-bottom: #{$baseline-push}rem;
       padding-bottom: #{$baseline-shift}rem;
@@ -304,10 +288,10 @@ a {
         $get-scale: map-get($modular-scale, scale-#{$i - 1});
         $get-size: map-get($get-scale, zeta);
         $rootsize: nth($sizes, $i);
-        $baseline-shift: #{math.div($get-size * 0.5 * (math.div(2 * $rootsize, $get-size) - map-get($bodytype, cap-height)), $rootsize) + 0.00001};
-        $baseline-push: #{3 - (math.div($get-size * (math.div(2 * $rootsize, $get-size) - map-get($bodytype, cap-height)), $rootsize) + 0.00001)};
+        $baseline-shift: #{($get-size / 2 * ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))) / $rootsize + 0.00001};
+        $baseline-push: #{3 - (($get-size * ((2 * $rootsize / $get-size) - map-get($bodytype, cap-height))) / $rootsize + 0.00001)};
 
-        @media screen and (min-width: math.div(nth($points, $i), 16) * 1em ) {
+        @media screen and (min-width: nth($points, $i) / 16 * 1em ) {
           margin-bottom: #{$baseline-push}rem;
           padding-bottom: #{$baseline-shift}rem;
         }
@@ -350,9 +334,7 @@ a {
   code {
     @include fontsize(theta, all);
 
-    & {
-      line-height: 1rem;
-    }
+    line-height: 1rem;
   }
 
   // Letter space those capitals people, Jan Tschichold would be proud.

@@ -81,14 +81,14 @@ Skauti a neskauti sú vítaní v našich komunitách rovnako. Účasť neskautov
 {% include inverted_section.html content=inverted_content %}
 
 
-## Aktuálny ročník 2024
+## Aktuálny ročník 2025
 
 Kurz sa skladá z dvoch neoddeliteľných častí:
 
-1. 10 dní v lete na Slovensku 9. – 18. 8. 2024
-2. víkendové stretnutie 18. – 20. 10. 2024
+1. 10 dní v lete na Slovensku 13. – 22. 8. 2025
+2. víkendové stretnutie 10. – 12. 10. 2025
 
-Prihlašování je uzavřeno.
+Prihlašování se otevře v únoru 2025.
 
 
 ## FAQ — často kladené otázky

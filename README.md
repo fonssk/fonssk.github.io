@@ -43,8 +43,6 @@ git push -u origin feat/my-new-feature
 
 Klikni na link a pošli push request (PR).
 
-```
-
 ## What is this?
 
 This is a website for the FONS Slovensko, czech and slovak scout and non-scout adult summer course.

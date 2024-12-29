@@ -86,7 +86,7 @@ Skauti a neskauti sú vítaní v našich komunitách rovnako. Účasť neskautov
 Kurz sa skladá z dvoch neoddeliteľných častí:
 
 1. 10 dní v lete na Slovensku 13. – 22. 8. 2025
-2. víkendové stretnutie 10. – 12. 10. 2025
+2. jesenné stretnutie 10. – 12. 10. 2025
 
 Prihlašování se otevře v únoru 2025.
 

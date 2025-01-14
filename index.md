@@ -88,7 +88,9 @@ Kurz sa skladá z dvoch neoddeliteľných častí:
 1. 10 dní v lete na Slovensku 13. – 22. 8. 2025
 2. jesenné stretnutie 10. – 12. 10. 2025
 
-Prihlašování se otevře v únoru 2025.
+Cena kurzu je 180 EUR / 4500 Kč.
+
+Prihlasovanie sa otevre vo februári 2025.
 
 
 ## FAQ — často kladené otázky

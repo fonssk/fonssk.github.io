@@ -17,12 +17,18 @@ Je ti medzi 18 a ±27 rokmi? Riešiš veľa otázok? Chýba ti inšpirácia? Chc
 
 {% capture inverted_content %}
 
-*„Fons je pre mna česko-slovenský veľký tresk, prelet kométy, vesmírny úkaz... človek musí mať celý čas otvorené oči, uši, dušu, lebo také niečo zažije raz za život.“*
+## Aktuálny ročník 2025
 
-<div style="text-align: right"> Ihlička, účastnice z roku 2019 </div>
+Kurz sa skladá z dvoch neoddeliteľných častí:
+
+1. 10 dní v lete na Slovensku 13. – 22. 8. 2025
+2. jesenné stretnutie 10. – 12. 10. 2025
+
+Cena kurzu je 180 EUR / 4500 Kč.
+
+Prihlasovanie sa otevre vo februári 2025.
 
 {% endcapture %}
-
 {% include inverted_section.html content=inverted_content %}
 
 
@@ -74,23 +80,12 @@ Skauti a neskauti sú vítaní v našich komunitách rovnako. Účasť neskautov
 
 {% capture inverted_content %}
 
-**„Iba ten, kto pracuje na sebe, môže byť prospešný druhým!“**
+*„Fons je pre mna česko-slovenský veľký tresk, prelet kométy, vesmírny úkaz... človek musí mať celý čas otvorené oči, uši, dušu, lebo také niečo zažije raz za život.“*
+
+<div style="text-align: right"> Ihlička, účastnice z roku 2019 </div>
 
 {% endcapture %}
-
 {% include inverted_section.html content=inverted_content %}
-
-
-## Aktuálny ročník 2025
-
-Kurz sa skladá z dvoch neoddeliteľných častí:
-
-1. 10 dní v lete na Slovensku 13. – 22. 8. 2025
-2. jesenné stretnutie 10. – 12. 10. 2025
-
-Cena kurzu je 180 EUR / 4500 Kč.
-
-Prihlasovanie sa otevre vo februári 2025.
 
 
 ## FAQ — často kladené otázky

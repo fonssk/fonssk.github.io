@@ -1,0 +1,17 @@
+<div class="justified-block">
+  {% assign paragraphs = include.content | split: "
+
+" %}
+  {% for paragraph in paragraphs %}
+    {% if paragraph != "" %}
+      <p>{{ paragraph }}</p>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+  .justified-block p {
+    text-align: justify;
+    margin-bottom: 1em;
+  }
+</style>

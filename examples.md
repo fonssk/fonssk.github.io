@@ -23,16 +23,15 @@ aside: true
 <small>A small element</small>
 
 [A link](https://david.darn.es "A link")
-
 Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
 
 Duis aute irure dolor in [A link](https://david.darn.es "A link") reprehenderit in voluptate velit esse cillum **bold text** dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt _italicised text_ in culpa qui officia deserunt mollit anim id `some code` est laborum.
 
-* An item
-* An item
-* An item
-* An item
-* An item
+- An item
+- An item
+- An item
+- An item
+- An item
 
 1. Item one
 2. Item two
@@ -79,6 +78,19 @@ blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
 
 ## Advanced elements
 
+### Justify text block
+
+{% capture text %}
+
+The following text is justified as you are used to see in newspapers and articles. It is a great way to present a block of text in a clean and structured way.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+{% endcapture %}
+
+{% include justified.html content=text %}
+
+
 ### Highlighted section example
 
 {% capture inverted_content %}
@@ -122,7 +134,7 @@ blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
     type="info"
     content="This is an admonition inside column 1." %}
 
-  ![An image](path/to/image.jpg)
+  ![An image](/assets/logos/fons@96px.png)
 
   [A button](https://example.com){:.button}
 {% endcapture %}

@@ -10,7 +10,34 @@
       {% endif %}
 
       <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
-        <a href="{{ url }}">{{ item.title }}</a>
+        <a href="{{ url }}">
+        {% if item.url contains 'facebook.com' %}
+            {% include icon.html id="facebook" title="facebook" %}
+        {% elsif item.url contains 'instagram.com' %}
+            {% include icon.html id="instagram" title="instagram" %}
+        {% elsif item.url contains 'twitter.com' %}
+            {% include icon.html id="twitter" title="twitter" %}
+        {% elsif item.url contains 'youtube.com' %}
+            {% include icon.html id="youtube" title="youtube" %}
+        {% elsif item.url contains 'skype.com' %}
+            {% include icon.html id="skype" title="skype" %}
+        {% elsif item.url contains 'twitch.tv' %}
+            {% include icon.html id="twitch" title="twitch" %}
+        {% elsif item.url contains 'vimeo.com' %}
+            {% include icon.html id="vimeo" title="vimeo" %}
+        {% elsif item.url contains 'reddit.com' %}
+            {% include icon.html id="reddit" title="reddit" %}
+        {% elsif item.url contains 'linkedin.com' %}
+            {% include icon.html id="linkedin" title="linkedin" %}
+        {% elsif item.url contains 'github.com' %}
+            {% include icon.html id="github" title="github" %}
+        {% elsif item.url contains 'pinterest.com' %}
+            {% include icon.html id="pinterest" title="pinterest" %}
+        {% elsif item.url contains '/feed' or item.url contains '/rss' %}
+            {% include icon.html id="rss" title="rss" %}
+        {% endif %}
+        {{ item.title }}
+        </a>
       </li>
     {% endfor %}
   </ul>

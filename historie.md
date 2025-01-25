@@ -5,6 +5,8 @@ excerpt: "Historie kurzu FONS Slovensko"
 feature_image: "https://picsum.photos/id/681/2000/1180"
 ---
 
+{% include figure.html image="/assets/images/historie/brichacek.jpg" caption="Václav Břicháček." position="right" %}
+
 {% capture text %}
 
 Začiatok kurzov FONS je spojený s menami Miloša Zapletala (Zet), Václava Břicháčka (Gigant), Karla Janovického (Joviš) a ďalších, ktorí sa hneď po revolúcii v roku 1989 usilovali o vytvorenie moderného skautského programu pre roverov. Myšlienky FONSu sú však omnoho staršie a siahajú až k legendárnemu Kruhu Pavla Křivského. Prvý kurz FONS sa uskutočnil v Česku v roku 1991 ešte pod menom „Ad fontes“. Postupne sa potom vytvorila trilógia kurzov FONS – PONS – MONS.

@@ -2,7 +2,7 @@
 title: Tím
 layout: page
 excerpt: "Kdo pro vás kurz připravuje..."
-feature_image: "https://picsum.photos/id/310/2464/1632"
+feature_image: "/assets/images/tim/cover.jpg"
 ---
 
 <div class="grid-Nx3">

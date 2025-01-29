@@ -2,7 +2,7 @@
 title: Historie
 layout: page
 excerpt: "Historie kurzu FONS Slovensko"
-feature_image: "https://picsum.photos/id/681/2000/1180"
+feature_image: "/assets/images/historie/cover.jpg"
 ---
 
 {% include figure.html image="/assets/images/historie/brichacek.jpg" caption="Václav Břicháček." position="right" %}

@@ -2,7 +2,7 @@
 title: Vyzerá to, že ste offline! 🚫
 indexing: false
 sitemap: false
-feature_image: "https://picsum.photos/id/329/1250/833"
+feature_image: "/assets/images/offline/cover.jpg"
 ---
 
 Ahoj, skaut! Vyzerá to, že ste sa odpojili od internetu... alebo ste sa stratili v existenciálnej kríze. 🤔

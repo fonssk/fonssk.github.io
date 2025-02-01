@@ -26,7 +26,7 @@ Kurz sa skladá z dvoch neoddeliteľných častí:
 
 Cena kurzu je 180 EUR / 4500 Kč.
 
-Prihlasovanie sa otevre vo februári 2025.
+Prihlášku [nájdeš tu](https://forms.gle/jCB3H2GzS9z1biHv6).
 
 {% endcapture %}
 {% include inverted_section.html content=inverted_content %}

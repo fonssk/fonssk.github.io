@@ -92,12 +92,8 @@ Skauti a neskauti sú vítaní v našich komunitách rovnako. Účasť neskautov
 
 {% capture column1_content %}
   {% include qa_admonition.html
-    question="Koľko ma to bude stať?"
-    answer="Všetko sa dozvieš, keď vyhodnotíme prihlášky a ozveme sa ti." %}
-
-  {% include qa_admonition.html
     question="Je to aj tak drahé!"
-    answer="Ak je cena kurzu tvoj hlavný dôvod prečo nemôžeš prísť, napíš nám email (Kontakty sú tu.) – a vymyslíme čo s tým." %}
+    answer="Ak je cena kurzu tvoj hlavný dôvod prečo nemôžeš prísť, napíš nám email a vymyslíme čo s tým." %}
 
   {% include qa_admonition.html
     question="Môžem prísť aj keď nie som skaut?"
@@ -108,23 +104,11 @@ Skauti a neskauti sú vítaní v našich komunitách rovnako. Účasť neskautov
     answer="Nie. Výnimka je plyšák." %}
 
   {% include qa_admonition.html
-    question="Účasť iba na jednej časti?"
-    answer="Obe časti kurzu tvoria jeden celok a účasť iba na jednej z nich nie je žiaduca, a preto ani možná. Príchody a odchody mimo stanovené časy hrubo narušujú priebeh kurzu a nie sú možné. Termíny sú známe vopred, tak sa im prosím prispôsob." %}
+    question="Čo so sebou?"
+    answer="Všetko sa dozvieš, keď vyhodnotíme prihlášky a ozveme sa ti." %}
 {% endcapture %}
 
 {% capture column2_content %}
-  {% include qa_admonition.html
-    question="Čo so sebou?"
-    answer="Všetko sa dozvieš, keď vyhodnotíme prihlášky a ozveme sa ti." %}
-
-  {% include qa_admonition.html
-    question="Co keď sa kurz nebude konať kvôli epidemii?"
-    answer="V prípade, že sa kurz nebude môcť konať kvôli vládnym nariadeniam či nebude možné cestovať cez hranice, vrátime celý účastnický poplatok." %}
-
-  {% include qa_admonition.html
-    question="Chybí mi ruka, ale nemám handicap…"
-    answer="Ozvi sa nám vopred a dohodneme sa, či je pre teba účasť vhodná." %}
-
   {% include qa_admonition.html
     question="Bojím sa, že…"
     answer="Sme si vedomí, že môžu nastať situácie do ktorých ísť nechceš a máš na to právo, ktoré my rešpektujeme. Všetky aktivity sú dobrovoľné a budeš mať možnosť sa rozhodnúť, čo absolvuješ a čo vynecháš. Ale opäť pripomíname: *Čím viac do toho dáš – tým viac si toho zoberieš so sebou!*" %}
@@ -132,6 +116,10 @@ Skauti a neskauti sú vítaní v našich komunitách rovnako. Účasť neskautov
   {% include qa_admonition.html
     question="Môžem sa odhlásit?"
     answer="Pokiaľ zo súrných dôvodov zistíš, že na FONS ísť nemôžeš, ihned sa nám ozvi. Ak to bude dostatočně vopred domluvíme sa na vráteniu části platby. Ak to bude iba pár dní, nie je, žial, možné vracať účastnický poplatok." %}
+
+  {% include qa_admonition.html
+    question="Účasť iba na jednej časti?"
+    answer="Obe časti kurzu tvoria jeden celok a účasť iba na jednej z nich nie je žiaduca, a preto ani možná. Príchody a odchody mimo stanovené časy hrubo narušujú priebeh kurzu a nie sú možné. Termíny sú známe vopred, tak sa im prosím prispôsob." %}
 {% endcapture %}
 
 {% include two_columns.html

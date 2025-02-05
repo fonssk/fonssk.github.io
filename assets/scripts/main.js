@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', (event) => {
   const texts = [
-    "je Československý kurz",
+    "je československý kurz",
     "je pre skautov aj neskautov",
     "rozširuje obzory",
     "testuje hranice",
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 document.addEventListener('DOMContentLoaded', (event) => {
   const texts = [
-    "je Československý kurz",
+    "je československý kurz",
     "je pre skautov aj neskautov",
     "rozširuje obzory",
     "testuje hranice",

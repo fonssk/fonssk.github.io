@@ -7,7 +7,7 @@ feature_text: |
     <div id="typed-line2"></div>
   </div>
 feature_image: "/assets/images/title/title.jpg"
-excerpt: "Manere in montibus."
+excerpt: "Československý sebapoznácí a sebarozvojový zážitkový kurz pre skauty a neskauty vo veku 18-27 rokov."
 ---
 
 FONS je sebapoznácí a sebarozvojový zážitkový kurz, ktorý v sebe spája dlhoročnú tradíciu. Je prameňom inšpirácie k ďalšej činnosti, vedie k poznaniu samého seba, svojho okolia a povzbudzuje objavovať nové horizonty.

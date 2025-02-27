@@ -1,3 +1,7 @@
+{% assign parts = include.description | split: "====" | first %}
+{% assign hashtags = include.description | split: "====" | last | split: "
+" | where_exp: "item", "item contains '#'" %}
+
 <div class="instructor-item">
   <div class="instructor-item-inner">
     <div class="instructor-item-front">
@@ -7,7 +11,12 @@
       <h3>{{ include.name }}</h3>
     </div>
     <div class="instructor-item-back">
-      <p>{{ include.description }}</p>
+      <p>{{ parts }}</p>
+      <div class="hashtags">
+        {% for tag in hashtags %}
+          <div class="hashtag">{{ tag | strip }}</div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>

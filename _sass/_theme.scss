@@ -735,7 +735,7 @@ pre code {
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; // Changed from center
+    justify-content: flex-start;
     align-items: center;
     padding: 1.0rem;
   }
@@ -750,19 +750,31 @@ pre code {
     overflow-y: auto;
     text-align: justify;
     padding: 1.5rem;
+    line-height: 1.1;
 
-    // Add this to create space at the top
+    .hashtags {
+      width: 100%;
+      margin: 1rem auto;
+      text-align: left;
+
+      .hashtag {
+        font-weight: bold;
+        font-size: 0.85rem !important;
+        font-family: inherit !important;
+        margin-bottom: 0.2rem;
+      }
+    }
+
     &::before {
       content: '';
       display: block;
-      height: 1.5rem; // Adjust this value to increase/decrease top space
+      height: 1.5rem;
     }
 
-    // Add this to create space at the bottom
     &::after {
       content: '';
       display: block;
-      height: 1.5rem; // Adjust this value to increase/decrease bottom space
+      height: 1.5rem;
     }
   }
 
@@ -801,7 +813,6 @@ pre code {
   background-size: cover;
 }
 
-// Add custom scrollbar styles
 .instructor-item-back::-webkit-scrollbar {
   width: 6px;
 }

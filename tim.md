@@ -67,12 +67,19 @@ feature_image: "/assets/images/tim/cover.jpg"
     #fedeveloper
     #horytojemoje
     #kytarazpevleci
-    #volejbalkdyztojde"%}
+    #volejbalkdyztojde" %}
 
   {% include instructor-item.html
     image="/assets/images/tim/jose.jpg"
     name="José"
-    description="Nehonosí se jen svým bujarým knírem, který si pečlivě pěstuje, a upřímným, hlasitým smíchem. Je to rovněž skvělý kamarád, který vás nikdy neodbyje a vždycky najde nějakým záhadným způsobem cestu, na jejíž konci stojíte rozesmátí, potěšení a inspirovaní." %}
+    description="Nehonosí se jen svým bujarým knírem, který si pečlivě pěstuje, a upřímným, hlasitým smíchem. Je to rovněž skvělý kamarád, který vás nikdy neodbyje a vždycky najde nějakým záhadným způsobem cestu, na jejíž konci stojíte rozesmátí, potěšení a inspirovaní.
+    ====
+    #mexiko
+    #skaut
+    #porsche
+    #chopin
+    #sisley
+    #thereisnotry" %}
 
   {% include instructor-item.html
     image="/assets/images/tim/kata.jpg"

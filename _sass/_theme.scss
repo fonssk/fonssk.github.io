@@ -1,5 +1,8 @@
 $max-content-width: 1200px;
 
+:root {
+  --smallMediaQuery: 625px;
+}
 
 // Structural elements
 body {
@@ -16,8 +19,9 @@ body {
   margin: 0 auto;
 }
 
-ul, ol {
-  padding-left: 1.0rem;
+ul,
+ol {
+  padding-left: 1rem;
   margin-left: 0;
 }
 
@@ -26,11 +30,13 @@ li {
 }
 
 // For nested lists
-ul ul, ol ol, ul ol, ol ul {
+ul ul,
+ol ol,
+ul ol,
+ol ul {
   margin-left: 0;
-  padding-left: 1.0rem;
+  padding-left: 1rem;
 }
-
 
 .title-header {
   h1 {
@@ -53,7 +59,6 @@ ul ul, ol ol, ul ol, ol ul {
     max-width: 75%;
   }
 }
-
 
 // Header, feature and footer
 .header,
@@ -104,12 +109,15 @@ ul ul, ol ol, ul ol, ol ul {
         }
       }
     }
-  }
 
+    @media (max-width: var(--smallMediaQuery)) {
+      margin-right: 1rem;
+    }
+  }
 }
 
 .feature {
-  padding-bottom: .4rem;
+  padding-bottom: 0.4rem;
   margin-bottom: 1.6rem;
   text-align: center;
   background: $featureBackgroundColour;
@@ -135,11 +143,14 @@ ul ul, ol ol, ul ol, ol ul {
     filter: invert(1);
     transition: filter 0.5s ease, opacity 0.5s ease;
   }
+  @media (max-width: var(--smallMediaQuery)) {
+    margin-left: 2rem;
+  }
 }
 
 .nav {
   a {
-    padding: .2rem;
+    padding: 0.2rem;
   }
   &--social a {
     display: inline-block;
@@ -148,25 +159,24 @@ ul ul, ol ol, ul ol, ol ul {
 }
 
 .small {
-  padding-top: .8rem;
+  padding-top: 0.8rem;
   color: $captionColour;
   display: inline-block;
 }
 
-
 // Top bar (header contrainer) -- changes when scrolled down
 .top-bar {
-    position: fixed;
-    background-color: transparent;
-    transition: background-color 0.5s ease;
-    z-index: 1000;
+  position: fixed;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  z-index: 1000;
 }
 
 .top-bar.scrolled {
-    background-color: $codeBackgroundColour;
-    img {
-        filter: none;
-    }
+  background-color: $codeBackgroundColour;
+  img {
+    filter: none;
+  }
 }
 
 /* TODO: fix the selectors to be more general */
@@ -195,8 +205,20 @@ ul ul, ol ol, ul ol, ol ul {
       }
     }
   }
-}
+  @media (max-width: var(--smallMediaQuery)) {
+    > li.item.item--nav > a {
+      color: $featureBackgroundColour;
+      padding-top: 10px;
+      background-color: white;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
 
+    > li.item.item--nav.item--current > a {
+      background-color: $featureBackgroundColour;
+      color: $featureBackgroundColourInverted;
+    }
+  }
+}
 
 .footer {
   align-content: center;
@@ -242,6 +264,10 @@ ul ul, ol ol, ul ol, ol ul {
     width: 115%;
     margin: 0 auto;
     transform: translateX(-6.5%); // centers the wider content
+    @media (max-width: var(--smallMediaQuery)) {
+      width: 100%;
+      transform: 0;
+    }
   }
 
   .column {
@@ -285,7 +311,6 @@ ul ul, ol ol, ul ol, ol ul {
   }
 }
 
-
 // Pagination nav
 .nav--paginator {
   @include flexbox;
@@ -297,7 +322,6 @@ ul ul, ol ol, ul ol, ol ul {
 .pagination {
   min-width: 20%;
 }
-
 
 // Main content
 .main {
@@ -319,20 +343,20 @@ ul ul, ol ol, ul ol, ol ul {
 }
 
 .content {
-    @include breakpoint(break-1) {
-      width: 100%;
-      max-width: $max-content-width;
-      margin: 0 auto;
-      padding: 0 1rem;
-    }
+  @include breakpoint(break-1) {
+    width: 100%;
+    max-width: $max-content-width;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
 
-    @media (max-width: 640px) {
-      padding: 0 1.0rem;
-    }
+  @media (max-width: 640px) {
+    padding: 0 1rem;
+  }
 }
 
 .share .button {
-  margin-right: .3rem;
+  margin-right: 0.3rem;
 }
 
 .aside {
@@ -341,7 +365,7 @@ ul ul, ol ol, ul ol, ol ul {
     margin-left: 4%;
     @include flex(1, 0, auto);
     opacity: 0.5;
-    transition: opacity .1s;
+    transition: opacity 0.1s;
     .section {
       position: sticky;
       top: 0;
@@ -361,7 +385,6 @@ ul ul, ol ol, ul ol, ol ul {
   margin: 0;
 }
 
-
 // Lists
 .list {
   list-style: none;
@@ -379,7 +402,7 @@ ul ul, ol ol, ul ol, ol ul {
 .item {
   &--nav {
     @include breakpoint(break-1) {
-      margin-left: .4rem;
+      margin-left: 0.4rem;
       display: inline-block;
     }
     &:first-of-type {
@@ -393,10 +416,9 @@ ul ul, ol ol, ul ol, ol ul {
   }
 }
 
-
 // Links, icons and images
 a .icon {
-  transition: fill .1s;
+  transition: fill 0.1s;
   &:hover {
     fill: currentColor;
   }
@@ -419,12 +441,12 @@ img {
   line-height: 0;
   &--left {
     float: left;
-    padding-right: .8rem;
+    padding-right: 0.8rem;
   }
   &--right {
     float: right;
     text-align: right;
-    padding-left: .8rem;
+    padding-left: 0.8rem;
   }
   &--center {
     text-align: center;
@@ -454,14 +476,13 @@ img {
 .video,
 .map,
 .form {
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 audio,
 video {
   width: 100%;
 }
-
 
 // Form elements and buttons
 .form {
@@ -485,16 +506,16 @@ input[type="submit"],
 input[type="color"],
 textarea,
 select {
-  padding: .6rem 1.2rem;
-  margin-bottom: .6rem;
-  transition: color .1s, background-color .1s, border .1s;
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 0.6rem;
+  transition: color 0.1s, background-color 0.1s, border 0.1s;
   line-height: inherit;
   border: none;
   box-shadow: none;
   border-radius: 0;
   -webkit-appearance: none;
   .icon {
-    margin: 0 0 .35rem;
+    margin: 0 0 0.35rem;
   }
 }
 
@@ -505,15 +526,15 @@ button,
   display: inline-block;
   color: $backgroundColour;
   background: $accentColour;
-  transition: box-shadow .1s;
+  transition: box-shadow 0.1s;
   will-change: box-shadow;
   box-shadow: inset 0 0 0 2rem transparent;
   &:hover {
-    box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.25);
+    box-shadow: inset 0 0 0 2rem rgba(0, 0, 0, 0.25);
   }
   &:active,
   &:focus {
-    box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.25);
+    box-shadow: inset 0 0 0 2rem rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -535,7 +556,6 @@ button,
   }
 }
 
-
 a,
 button,
 .button,
@@ -544,8 +564,8 @@ textarea,
 select {
   &:focus,
   &:hover:focus {
-    outline: solid .12rem $focusColour;
-    outline-offset: -.12rem;
+    outline: solid 0.12rem $focusColour;
+    outline-offset: -0.12rem;
   }
 }
 
@@ -571,15 +591,21 @@ select {
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 label {
-  @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+  @include baseline(
+    $fontsize: zeta,
+    $font: $bodytype,
+    $lineheight: 2,
+    $below: 2,
+    $breakpoint: all
+  );
 }
 
 code {
-  padding: .12rem .2rem;
+  padding: 0.12rem 0.2rem;
   color: $headingColour;
 }
 
@@ -609,7 +635,6 @@ pre code {
   color: $backgroundColour;
   text-shadow: none;
 }
-
 
 // grid-2x3 in title
 .grid-Nx3 {
@@ -713,7 +738,7 @@ pre code {
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
 
   &-inner {
@@ -728,7 +753,8 @@ pre code {
     transform: rotateY(180deg);
   }
 
-  &-front, &-back {
+  &-front,
+  &-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -737,7 +763,7 @@ pre code {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 1.0rem;
+    padding: 1rem;
   }
 
   &-front {
@@ -766,13 +792,13 @@ pre code {
     }
 
     &::before {
-      content: '';
+      content: "";
       display: block;
       height: 1.5rem;
     }
 
     &::after {
-      content: '';
+      content: "";
       display: block;
       height: 1.5rem;
     }
@@ -826,7 +852,6 @@ pre code {
   border-radius: 3px;
 }
 
-
 // Sassline overrides
 .typeset {
   a > code {
@@ -856,8 +881,8 @@ pre code {
   .nav a {
     padding-left: 0;
     padding-right: 0;
-    margin-left: .2rem;
-    margin-right: .2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
   }
   pre {
     white-space: pre;
@@ -865,14 +890,14 @@ pre code {
   }
 }
 
-
 // cursor at the title
-.animated-text, .animated-text-twoline {
-    font-family: '"Merriweather", serif';
-    font-weight: bold;
-    font-size: 2rem;
-    color: #fff;
-    padding: 20px;
+.animated-text,
+.animated-text-twoline {
+  font-family: '"Merriweather", serif';
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff;
+  padding: 20px;
 }
 
 .animated-text {
@@ -893,8 +918,8 @@ pre code {
 }
 
 #typed-text::after {
-  content: '|';
-  animation: blink 1.0s infinite;
+  content: "|";
+  animation: blink 1s infinite;
 }
 
 #typed-line1 {
@@ -920,15 +945,15 @@ pre code {
     font-size: 3rem;
 
     @media (max-width: 640px) {
-        line-height: 1.3;
+      line-height: 1.3;
     }
   }
 }
 
 .cursor::after {
-  content: '|';
+  content: "|";
   position: absolute;
-  animation: blink 1.0s infinite;
+  animation: blink 1s infinite;
   transform: translateY(-10%);
 
   @media (max-width: 640px) {
@@ -952,11 +977,16 @@ pre code {
 }
 
 @keyframes blink {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
 
 // inverted section
 .inverted-section {
@@ -975,7 +1005,15 @@ pre code {
     padding: 0 1rem;
   }
 
-  h1, h2, h3, h4, h5, h6, p, li, a {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  a {
     color: $title-text-color;
   }
 
@@ -987,42 +1025,41 @@ pre code {
     text-shadow: none;
 
     &:hover {
-    color: darken($title-text-color, 10%);
+      color: darken($title-text-color, 10%);
     }
   }
 }
 
-
 // admonition boxes
 .admonition {
-    margin: 1.5em 0;
-    padding: 1em 1.5em;
-    border-left: 5px solid;
-    border-radius: 3px;
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
+  border-left: 5px solid;
+  border-radius: 3px;
 
-    &.question {
-      border-color: #4CAF50;
-      background-color: #e8f5e9;
-    }
+  &.question {
+    border-color: #4caf50;
+    background-color: #e8f5e9;
+  }
 
-    &.info {
-      border-color: #2196F3;
-      background-color: #e3f2fd;
-    }
+  &.info {
+    border-color: #2196f3;
+    background-color: #e3f2fd;
+  }
 
-    &.warning {
-      border-color: #FFC107;
-      background-color: #fff8e1;
-    }
+  &.warning {
+    border-color: #ffc107;
+    background-color: #fff8e1;
+  }
 
-    &.error {
-      border-color: #F44336;
-      background-color: #ffebee;
-    }
+  &.error {
+    border-color: #f44336;
+    background-color: #ffebee;
+  }
 
-    p:last-child {
-      margin-bottom: 0;
-    }
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .qa-admonition {
@@ -1042,7 +1079,7 @@ pre code {
     }
 
     &::after {
-      content: '\25BC'; // Down arrow
+      content: "\25BC"; // Down arrow
       float: right;
       transition: transform 0.3s ease;
     }
@@ -1075,7 +1112,6 @@ pre code {
     }
   }
 }
-
 
 // multiple columns
 .columns {

@@ -110,7 +110,7 @@ ol ul {
       }
     }
 
-    @media (max-width: var(--smallMediaQuery)) {
+    @media (max-width: 768px) {
       margin-right: 1rem;
     }
   }
@@ -143,7 +143,7 @@ ol ul {
     filter: invert(1);
     transition: filter 0.5s ease, opacity 0.5s ease;
   }
-  @media (max-width: var(--smallMediaQuery)) {
+  @media (max-width: 768px) {
     margin-left: 2rem;
   }
 }
@@ -205,17 +205,22 @@ ol ul {
       }
     }
   }
-  @media (max-width: var(--smallMediaQuery)) {
-    > li.item.item--nav > a {
-      color: $featureBackgroundColour;
-      padding-top: 10px;
-      background-color: white;
-      transition: color 0.3s ease, background-color 0.3s ease;
-    }
+}
 
-    > li.item.item--nav.item--current > a {
-      background-color: $featureBackgroundColour;
-      color: $featureBackgroundColourInverted;
+@media (max-width: 768px) {
+  &.scrolled {
+    > nav > ul {
+      > li.item.item--nav > a {
+        color: $featureBackgroundColour;
+        padding-top: 10px;
+        background-color: white;
+        transition: color 0.3s ease, background-color 0.3s ease;
+      }
+
+      > li.item.item--nav.item--current > a {
+        background-color: $featureBackgroundColour;
+        color: $featureBackgroundColourInverted;
+      }
     }
   }
 }
@@ -264,10 +269,6 @@ ol ul {
     width: 115%;
     margin: 0 auto;
     transform: translateX(-6.5%); // centers the wider content
-    @media (max-width: var(--smallMediaQuery)) {
-      width: 100%;
-      transform: 0;
-    }
   }
 
   .column {
@@ -303,6 +304,8 @@ ol ul {
   @media (max-width: 768px) {
     .columns.columns--three {
       flex-direction: column;
+      width: 100%;
+      transform: 0;
     }
 
     .column {

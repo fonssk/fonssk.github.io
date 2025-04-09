@@ -92,6 +92,15 @@ feature_image: "/assets/images/tim/cover.jpg"
     #orlickyhory" %}
 
   {% include instructor-item.html
+    image="/assets/images/tim/lucia.jpg"
+    name="Lucia"
+    description="Jej teritórium výskytu mení obdobne často ako sa dunaj vylieva z jeho koryta a zaplavuje krajinu lužných lesov. Práve lužné lesy dunaja sú okrem odvekého útočiska aj stabilným námetom a zdrojom jej výtvarnej tvorby. Okrem tejto životnej skúsenosti sa momentálne vteluje ako galeríjna pedagogička a (spolu)pracuje na rozličných výtvarno vzdelávacích situáciách. A pokiaľ by sa vám v živote hodil dobrý mundúr - možno ste práve našli vašeho dvorného mundúristu.
+    ====
+    #dunajskýfanatizmus
+    #potníchýše
+    #podekujmejahnetizajablko" %}
+
+  {% include instructor-item.html
     image="/assets/images/tim/maria.jpg"
     name="Mária"
     description="Odvieva sa medzi Českom a Slovenskom. Aktuálne kotví v Prahe na doktoráte z didaktiky dejepisu a venuje sa historickým výročiam. Keďže práca šľachtí, pracuje popri tom v asistencii, kde pomáha ľuďom s telesným postihnutím. Aktívna milovníčka behu, lezenia a squashu. Pasívna milovníčka hokeja, biatlonu a šípok.

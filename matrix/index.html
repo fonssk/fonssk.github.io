@@ -6,24 +6,19 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
+      padding: 2rem 1rem;
       background-color: black;
       color: #39ff14;
       font-family: monospace;
       display: flex;
       justify-content: center;
-      align-items: center;
-      height: 100vh;
-      overflow: hidden;
+      background-attachment: fixed;
+      min-height: 100vh;
     }
 
     .center-wrapper {
-      position: relative;
-      top: 0%; 
-      transform: translateY(-50%);
       width: 600px;
       max-width: 90vw;
-      overflow-y: scroll;
     }
 
     pre {
@@ -65,7 +60,7 @@
 
     const name = getNameFromURL();
 
-    const fullText = `Ťuk ťuk.\nSi hore?\nPrebuď sa ${name}...\nOhľadne nášho stretnutia na Východe.\nPotreboval by som od teba pár drobností.\n\n1. Tvoju aktuálnu portrétovú fotografiu - vol vohoz klasicky v čiernom (mailto:fons@skauting.sk do 2025-06-22 23:59:59:99 UTC+1 DST).\n2. Ber brejle - v NEklasickom štýle (s UV-filtrom, polarizované, odtieň všetko nechávam na tebe).\n\nKontakt sa uskutoční na 2025-08-13 16:30:00:00 UTC+1 DST, v chrámovom komplexe 49.0010725N, 20.7521103E\nPríď včas. Vieš, že na nikoho nečakám.\n\nFoundation of New Simulations [FONS] ... ťa má`;
+    const fullText = `Ťuk ťuk.\nSi hore?\nPrebuď sa ${name}...\nOhľadne nášho stretnutia na Východe.\nPotreboval by som od teba pár drobností.\n\n1. Tvoju aktuálnu portrétovú fotografiu - vol vohoz klasicky v čiernom (mailem na fons@skauting.sk do 2025-06-22 23:59:59:99 UTC+1 DST).\n2. Ber brejle - v NEklasickom štýle (s UV-filtrom, polarizované, odtieň všetko nechávam na tebe).\n\nKontakt sa uskutoční na 2025-08-13 16:30:00:00 UTC+1 DST, v chrámovom komplexe 49.0010725N, 20.7521103E\nPríď včas. Vieš, že na nikoho nečakám.\n\nFoundation Of New Simulations [FONS] ... ťa má`;
 
     const display = document.getElementById('text');
     const storageKey = 'typedIndex_' + name;

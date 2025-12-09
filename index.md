@@ -21,16 +21,16 @@ Prihlás sa a poď do toho s nami!
 
 {% capture inverted_content %}
 
-## Aktuálny ročník 2025
+## Aktuálny ročník 2026
 
 Kurz sa skladá z dvoch neoddeliteľných častí:
 
-1. 10 dní v lete na Slovensku 13. – 22. 8. 2025
-2. jesenné stretnutie 10. – 12. 10. 2025
+1. 10 dní v lete na Slovensku 14. – 23. 8. 2026
+2. jesenné stretnutie 9. – 11. 10. 2025
 
-Cena kurzu je 180 EUR / 4500 Kč.
+Cena kurzu je 160 EUR / 4000 Kč.
 
-Prihlášku [nájdeš tu](https://forms.gle/jCB3H2GzS9z1biHv6).
+Registrácia bude otvorená skor vo februari 2026.
 
 {% endcapture %}
 {% include inverted_section.html content=inverted_content %}

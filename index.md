@@ -28,7 +28,7 @@ Kurz sa skladá z dvoch neoddeliteľných častí:
 1. 10 dní v lete na Slovensku 14. – 23. 8. 2026
 2. jesenné stretnutie 9. – 11. 10. 2026
 
-Cena kurzu je 160 EUR / 4000 Kč.
+Cena kurzu je cca 160 EUR / 4000 Kč.
 
 Registrácia bude otvorená najskôr vo februári 2026.
 

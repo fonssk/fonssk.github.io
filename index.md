@@ -28,9 +28,9 @@ Kurz sa skladá z dvoch neoddeliteľných častí:
 1. 10 dní v lete na Slovensku 14. – 23. 8. 2026
 2. jesenné stretnutie 9. – 11. 10. 2026
 
-Cena kurzu je cca 160 EUR / 4000 Kč.
+Cena kurzu je cca 180 EUR / 4500 Kč pro skauty<span class="footnote-ref" title="Pro registrované členy Junáka.">*</span>, pro ostatní 270 EUR / 6750 Kč (rozdíl tvoří dotace, kterou dostáváme od Junáka na podporu vzdělávání).
 
-Registrácia bude otvorená najskôr vo februári 2026.
+Registrácia je otvorená. [Prihlás sa](https://forms.gle/erFdb7vH8Prza9VL9).
 
 {% endcapture %}
 {% include inverted_section.html content=inverted_content %}

@@ -70,18 +70,6 @@ feature_image: "/assets/images/tim/cover.jpg"
     #volejbalkdyztojde" %}
 
   {% include instructor-item.html
-    image="/assets/images/tim/jose.jpg"
-    name="José"
-    description="Nehonosí se jen svým bujarým knírem, který si pečlivě pěstuje, a upřímným, hlasitým smíchem. Je to rovněž skvělý kamarád, který vás nikdy neodbyje a vždycky najde nějakým záhadným způsobem cestu, na jejíž konci stojíte rozesmátí, potěšení a inspirovaní.
-    ====
-    #mexiko
-    #skaut
-    #porsche
-    #chopin
-    #sisley
-    #thereisnotry" %}
-
-  {% include instructor-item.html
     image="/assets/images/tim/kata.jpg"
     name="Káťa"
     description="Nejčastěji ji lze zastihnout, jak zasněně čučí na nebe a sní. Má nohy toulavý a její touha po poznání ji zavedla už do různých koutů světa. Je hudebníkem srdcem i duší, zarytým filmofilem i budoucím spisovatelem (i když momentálně studuje fyziku). Životní vášeň nalezla ve vytrvalosti, ráda běhá, běžkuje, boulderuje i pilotuje letadla. Večery tráví dlouhými rozhovory, ideálně s půllitrem dobrého chmelu v ruce.
@@ -90,15 +78,6 @@ feature_image: "/assets/images/tim/cover.jpg"
     #východyslunce
     #higgsuvboson
     #orlickyhory" %}
-
-  {% include instructor-item.html
-    image="/assets/images/tim/lucia.jpg"
-    name="Lucia"
-    description="Jej teritórium výskytu mení obdobne často ako sa dunaj vylieva z jeho koryta a zaplavuje krajinu lužných lesov. Práve lužné lesy dunaja sú okrem odvekého útočiska aj stabilným námetom a zdrojom jej výtvarnej tvorby. Okrem tejto životnej skúsenosti sa momentálne vteluje ako galeríjna pedagogička a (spolu)pracuje na rozličných výtvarno vzdelávacích situáciách. A pokiaľ by sa vám v živote hodil dobrý mundúr - možno ste práve našli vašeho dvorného mundúristu.
-    ====
-    #dunajskýfanatizmus
-    #potníchýše
-    #podekujmejahnetizajablko" %}
 
   {% include instructor-item.html
     image="/assets/images/tim/maria.jpg"
@@ -112,6 +91,15 @@ feature_image: "/assets/images/tim/cover.jpg"
     #extrovertnýintrovert"%}
 
   {% include instructor-item.html
+    image="/assets/images/tim/masa.jpg"
+    name="Máša"
+    description="Máša je fotogenická entita s (takmer) najdlhšími nohami v tíme. Takže keď s ňou chcete držať počas debaty krok, poriadne sa zapotíte. Jej rýchle tempo jej taktiež umožňuje zároveň študovať 2 vysoké školy a popri tom pracovať ako terénny sociálny pracovník. Ale keď si nakoniec vyloží nohy na stôl, tak rada luští slovenské krížovky alebo zvečňuje epické okamihy do notýsku. 
+    ====
+    #restingbitchface
+    #vokurkyavincentka
+    #yolo"%}
+
+  {% include instructor-item.html
     image="/assets/images/tim/moony.jpg"
     name="Moony"
     description="Pochádza z pahorkatiny najmohutnejšieho neogénneho vulkánu v západných karpatoch,
@@ -123,16 +111,6 @@ feature_image: "/assets/images/tim/cover.jpg"
     #borovičkajenootropikum
     #undiagnosedADHD
     #thousandchrometabsopen" %}
-
-  {% include instructor-item.html
-    image="/assets/images/tim/terez.jpg"
-    name="Terez"
-    description="Duší svobodná tanečnice se srdcem roztančeným na pomezí tří světů. Její kroky provází rytmus české spontánnosti, slovenské hravosti a německé laskavosti. Na horských stezkách sbírá nejen kilometry, ale i tajemství lidských duší. Otvírá rozhovory o věcech, o kterých mnoho lidí mlčí.
-    ====
-    #zpíváníuohně
-    #smích
-    #nebát se
-    #péčeoduši" %}
 
   {% include instructor-item.html
     image="/assets/images/tim/tesa.jpg"

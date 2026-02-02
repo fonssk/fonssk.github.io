@@ -8,7 +8,7 @@ feature_image: "/assets/images/gdpr/cover.jpg"
 Účelem této stránky je poskytnout vám souhrnné informace o tom, jaké údaje a proč shromažďujeme a jak s nimi nakládáme. Všechny os. údaje zpracováváme transparentně, pouze v nezbytném rozsahu a v souladu se zákony.
 
 ## Správce osobních údajů
-Správcem vašich osobních údajů je neformální sdružení instruktorů kurzu FONS Slovensko, zastoupené Máriou Bridovou, Pod kaštieľom 284/5, Velké Záľužie, Slovenská republika.
+Správcem vašich osobních údajů je Junák – český skaut, Centrum vzdělávání Parvula, z. s., IČO: 75156890, se sídlem Pitterova 2892/1, 130 00 Praha – Žižkov, Česká republika.
 
 ## Zpracovatelé osobních údajů
 Zpracovateli osobních údajů jsou: instruktoři kurzu FONS Slovensko (zejména vedoucí instruktor, zdravotník), poskytovatelé ubytovacích služeb, poskytovatelé služeb sledování návštěvnosti webu (údaje v rozsahu souborů cookies).
@@ -58,4 +58,4 @@ Právo na lidský zásah v případě rozhodnutí na bázi automatizovaného zpr
 
 Pokud budete požadovat některého z výše uvedených práv, musíte nám prokázat, že jste opravdu subjektem dotazovaných údajů. To můžete udělat výhradně tak, že se prokážete osobně na domluveném místě vaším občanským průkazem nebo cestovním pasem.
 
-Poslední úprava: leden 2025
+Poslední úprava: únor 2026

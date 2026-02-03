@@ -11,7 +11,7 @@
 5. Změny se za pár minut projeví na webu: [https://fonssk.github.io/](https://fonssk.github.io/).
 
 > [!CAUTION]
-> Úpravy na špatných místech mohou způsobit nefunkčnost webu. Ujisti se, že touto metodou upravuješ pouze text stránky. Na větší úprravy, obrázky apod., použij lokální metodu.
+> Úpravy na špatných místech mohou způsobit nefunkčnost webu. Ujisti se, že touto metodou upravuješ pouze text stránky. Na větší úpravy, obrázky apod., použij lokální metodu.
 
 ### Lokálně (přes PC, větší úpravy)
 

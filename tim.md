@@ -49,6 +49,18 @@ feature_image: "/assets/images/tim/cover.jpg"
     #nedeľnánedeľalover" %}
 
   {% include instructor-item.html
+    image="/assets/images/tim/brepta.jpg"
+    name="Brepta"
+    description="Brepta pôsobí ako spontánna a smiechom oplývajúca deva. Ale nenechajte sa oklamať prvým dojmom – pod kučeravými vlasmi sa skrýva inkarnovaná duša Rakúsko-Uhorskej komtesy, ktorá s vami bude zanietene diskutovať o klasickej hudbe či literárnom umení. Jej rozhľad môžete pocítiť aj pri diskusiách o kurióznych medicínskych diagnózach či pri hlbokých debatách na poli etiky. Jej empatia zaručuje, že sa z diskusie nikdy nestane hádka, a tiež to, že vás vždy rada vypočuje a - ak treba - s presnosťou chirurga skvele poradí. A hoci anime neholduje, nové zručnosti zbiera ako Ash pokémonov – od háčkovanie po programovanie. Každopádne, nech už s Breptou preberáte čokoľvek, po rozhovore s ňou odchádzate s úsmevom - a možno aj s novou tabuľkou v Exceli.
+    ====
+    #SpotifyListeningAge79
+    #dajtemiproblémajavámnaňvytvorímtabuľku
+    #materinskýjazykMaďarčina
+    #chaostamer
+    #systemmaker
+    #hrádzavpotokubuilder " %}
+
+  {% include instructor-item.html
     image="/assets/images/tim/brumik.jpg"
     name="Brumík"
     description="Studuje žurnalistiku a jednou bude možná protivný novinář. Zatím ale tráví čas hledáním otázek a sbíráním borůvek. Slamuje v zapadlých pražských vinárnách nebo debatuje po hospodách. Umí backflip, ale bojí se ho dělat bez trampolíny. Taky se hrbí a měl by posilovat záda. Fons je pro něj vesmír, který dává smysl.

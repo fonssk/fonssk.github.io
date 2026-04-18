@@ -20,9 +20,8 @@ feature_image: "/assets/images/tim/cover.jpg"
     name="Albert"
     description="Zkoumá svět nejen svýma programátorskýma očima, ale dokáže vidět krásu ve věcech, ve kterých by to jen tak někoho nenapadlo. Albertovou doménou je vyhledávání skvělých kavárenských podniků i v místech, kde žádnou takovou očekávat nejde. Nad jeho kulinářstvím lze jen smeknout. Vždy se vyplatí počkat si, co nakonec řekne, protože to stojí za to.
     ====
-    #computervision
-    #hardcoreintrovert
-    #spontánnírozhodnutí
+    #startuplife
+    #shagadellic
     #naseverunejlíp
     #😆" %}
 
@@ -34,7 +33,7 @@ feature_image: "/assets/images/tim/cover.jpg"
     #slovenštinaC1
     #felda1.9 D
     #redisnewblack
-    #jaksesijebouda?
+    #EDChřebík
     #babyboss" %}
 
   {% include instructor-item.html
@@ -121,11 +120,13 @@ feature_image: "/assets/images/tim/cover.jpg"
     ====
     #viešakozískalnezmarbicykel?
     #borovičkajenootropikum
-    #undiagnosedADHD
+    #cd>lm
     #thousandchrometabsopen" %}
 
   {% include instructor-item.html
     image="/assets/images/tim/tesa.jpg"
     name="Těša"
-    description="Těša je studna pozitívnej energie, odhodlania a nadeje. Je veľmi ľahké nájsť si s ním niečo spoločné (napr aktivitu alebo tému) a zdieľať na to svoje pohľady. Má skvelú schopnosť človeka vypočuť a pomôcť mu nájsť vnútorný mier. Je vždy ochotný a trpezlivý pomáhať ľuďom posúvať sa dopredu a dotiahnúť tak na svoje lepšie JA. Keď sa práve cítiš, že tvoj život je dážď tak Těša bude tvoja dúha." %}
+    description="Těša je studna pozitívnej energie, odhodlania a nadeje. Je veľmi ľahké nájsť si s ním niečo spoločné (napr aktivitu alebo tému) a zdieľať na to svoje pohľady. Má skvelú schopnosť človeka vypočuť a pomôcť mu nájsť vnútorný mier. Je vždy ochotný a trpezlivý pomáhať ľuďom posúvať sa dopredu a dotiahnúť tak na svoje lepšie JA. Keď sa práve cítiš, že tvoj život je dážď tak Těša bude tvoja dúha.
+    #kandelábr
+    #čipero" %}
 </div>

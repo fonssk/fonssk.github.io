@@ -1,5 +1,5 @@
 ---
-title: Výročia
+title: 25. výročie fonsu slovensko
 layout: page
 excerpt: "Oslava 25. výročia Fonsu Slovensko"
 feature_image: "/assets/images/vyrocie/cover.jpg"

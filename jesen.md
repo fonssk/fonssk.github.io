@@ -55,15 +55,8 @@ feature_image: "https://picsum.photos/id/681/2000/1180"
 
   <h2>Harmonogram</h2>
 
-  <iframe
-    id="innerFrame"
-    name="innerFrame"
-    sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation"
-    frameborder="0"
-    allowfullscreen=""
-    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVmnrbVa2fcaktCRn_4XzAhJwXtYscUSxOiurBVwohUmONalJJVhPD7BMBJs5UMQ/pubhtml?gid=463010903&amp;single=true"
-    style="width: 100%; height: 54vh; min-height: 600px; overflow: auto; display: block;">
-  </iframe>
+  Bude doplněno...
+
   <br>
 
   <h2>Čím môžeš prispieť</h2>

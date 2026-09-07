@@ -19,7 +19,7 @@ feature_image: "https://picsum.photos/id/681/2000/1180"
   <ul>
     <li><strong>9.–11. októbra 2026.</strong></li>
     <li>Sraz pre tohtoroční účastníky <strong>pátek v 19.00 na hlavním nádrží v Brně u vstupu</strong>.</li>
-    <li>Loňský pons (fons 2025), prosíme o organizaci páteční hry.</strong>.</li>
+    <li>Loňský pons (fons 2025), prosíme o organizaci páteční hry.</li>
     <li>Sraz pre ponsy <strong> najskôr v 19.00 na Kaprálově mlýně</strong>.</li>
     <li>Odjezd je plánován na <strong>neděli okolo 13:30</strong>, budeme rádi, když nám do té půl druhé pomůžete s úklidem základny. Autobusy do Brna jezdí z <a href="https://mapy.com/s/jofopesute">této zastávky</a>.</li>
   </ul>
@@ -49,7 +49,7 @@ feature_image: "https://picsum.photos/id/681/2000/1180"
 {% capture column2_content %}
   <h2>Prihlasovanie</h2>
 
-  <a href="https://forms.gle/SRV2SHzvGDwLzrAL6">Přihláška na Mlýn 2025</a>
+  <a href="https://forms.gle/SRV2SHzvGDwLzrAL6">Přihláška na Mlýn 2026</a>
 
   <strong>Najmä tohtoroční Fonsáci, prosíme vás, aby ste formulár vyplnili aj v prípade, že nejdete</strong>, nech vieme, že sa k vám informácia dostala.
 
@@ -62,7 +62,7 @@ feature_image: "https://picsum.photos/id/681/2000/1180"
     frameborder="0"
     allowfullscreen=""
     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVmnrbVa2fcaktCRn_4XzAhJwXtYscUSxOiurBVwohUmONalJJVhPD7BMBJs5UMQ/pubhtml?gid=463010903&amp;single=true"
-    style="width: 100%; height: 68vh; min-height: 600px; overflow: auto; display: block;">
+    style="width: 100%; height: 54vh; min-height: 600px; overflow: auto; display: block;">
   </iframe>
   <br>
 

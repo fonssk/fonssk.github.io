@@ -17,8 +17,10 @@ feature_image: "https://picsum.photos/id/681/2000/1180"
 
   <h3>Kedy?</h3>
   <ul>
-    <li><strong>10.–12. októbra 2025.</strong></li>
-    <li>Sraz ideálně v <strong>pátek v 18.00 na mlýně</strong>.</li>
+    <li><strong>9.–11. októbra 2026.</strong></li>
+    <li>Sraz pre tohtoroční účastníky <strong>pátek v 19.00 na hlavním nádrží v Brně u vstupu</strong>.</li>
+    <li>Loňský pons (fons 2025), prosíme o organizaci páteční hry.</strong>.</li>
+    <li>Sraz pre ponsy <strong> najskôr v 19.00 na Kaprálově mlýně</strong>.</li>
     <li>Odjezd je plánován na <strong>neděli okolo 13:30</strong>, budeme rádi, když nám do té půl druhé pomůžete s úklidem základny. Autobusy do Brna jezdí z <a href="https://mapy.com/s/jofopesute">této zastávky</a>.</li>
   </ul>
 
@@ -34,9 +36,9 @@ feature_image: "https://picsum.photos/id/681/2000/1180"
 
   <h3>S sebou</h3>
   <ul>
-    <li>něco na páteční večeři</li>
+    <li>něco na páteční večeři (večeře není zajištěna</li>
     <li>přezůvky</li>
-    <li>spacák (může se hodit i pár karimatek)</li>
+    <li>spacák a karimatky (není dostatek postelí)</li>
     <li>něco sportovního na ven a něco teplého do podzimních dní</li>
     <li>může se hodit něco na psaní</li>
     <li>příjemné a trochu formální/párty oblečení na sobotní večer</li>
@@ -47,7 +49,7 @@ feature_image: "https://picsum.photos/id/681/2000/1180"
 {% capture column2_content %}
   <h2>Prihlasovanie</h2>
 
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLScxaAWQyIQYkfP_iT0ZQDVH5a8bbhjVojhkCPSCdWTJ5IQptQ/viewform">Přihláška na Mlýn 2025</a>
+  <a href="https://forms.gle/SRV2SHzvGDwLzrAL6">Přihláška na Mlýn 2025</a>
 
   <strong>Najmä tohtoroční Fonsáci, prosíme vás, aby ste formulár vyplnili aj v prípade, že nejdete</strong>, nech vieme, že sa k vám informácia dostala.
 
@@ -65,7 +67,7 @@ feature_image: "https://picsum.photos/id/681/2000/1180"
   <br>
 
   <h2>Čím môžeš prispieť</h2>
-  Svoje preferencie prosím vyplň do <a href="https://docs.google.com/spreadsheets/d/1kDQyhpIa42gBzPg_LDicNVvA7oVZL-Bu/">zdieľanej tabuľky</a>. Väčšinu programu chceme tvoriť spoločne.
+  Svoje preferencie prosím vyplň do <a href="https://docs.google.com/spreadsheets/d/1aVZdOUjI_QbnRJIRBYLQtBh06Gg4aOb1/edit?usp=sharing&ouid=109115261121465979076&rtpof=true&sd=true">zdieľanej tabuľky</a>. Väčšinu programu chceme tvoriť spoločne.
   <ul>
     <li><strong>Voliteľné programy</strong> – športy, tvorba, diskusie, workshopy... všetko je vítané. Programy môžu mať rôznu dĺžku, aby si mohol/a nielen organizovať, ale aj užiť iné aktivity.</li>
     <li><strong>TEDx prednášky</strong> – radi sa navzájom inšpirujeme krátkymi poviedkami. Ak chceš zdieľať tému, ktorá ťa zaujíma, máš príležitosť. Dĺžka max. 8,5 minút.</li>
